@@ -1,49 +1,42 @@
-# Data Analytics Project – Customer Shopping Behavior Analysis
+# Customer Shopping Behavior Analysis
 
 ## Overview
-This project focuses on analyzing customer shopping behavior using data analytics techniques. The objective is to transform raw transactional data into meaningful insights through data preprocessing, exploratory data analysis (EDA), SQL-based analysis, and interactive visualization. The final output includes a Power BI dashboard, a detailed report, and a presentation summarizing key findings.
-
----
+This project analyzes customer shopping behavior using a structured dataset. The goal is to identify purchasing patterns, customer trends, and key insights through data preprocessing, exploratory data analysis (EDA), SQL queries, and interactive dashboards.
 
 ## Dataset
-The dataset contains customer transaction details such as demographics, product categories, and purchase information. It is used to analyze spending patterns, identify trends, and understand customer purchasing behavior.
-
----
+The dataset contains transactional information such as customer demographics, product categories, purchase amounts, and shopping frequency. It is used to understand customer behavior and spending patterns.
 
 ## Tools & Technologies
-- **Python (Pandas, NumPy)** – Data loading, cleaning, and exploratory data analysis  
-- **PostgreSQL / MySQL / SQL Server** – SQL queries for structured data analysis  
-- **Microsoft Power BI Desktop** – Data visualization and interactive dashboard creation  
-- **Gamma** – Presentation (PPT) creation  
-- **GitHub** – Project repository and version control  
-
----
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- SQL (PostgreSQL / MySQL / SQL Server)
+- Microsoft Power BI
+- Jupyter Notebook
+- Gamma (for presentation)
 
 ## Project Steps
-1. **Data Loading** – Imported the dataset using Python.  
-2. **Data Cleaning** – Handled missing values, standardized column names, and removed inconsistencies.  
-3. **Exploratory Data Analysis (EDA)** – Analyzed customer demographics, product categories, and purchasing patterns.  
-4. **SQL Analysis** – Executed SQL queries in PostgreSQL/MySQL/SQL Server to extract insights from the dataset.  
-5. **Dashboard Development** – Built an interactive dashboard in Power BI to visualize key metrics and trends.  
-6. **Reporting & Presentation** – Documented insights in a report and created a presentation using Gamma.
-
----
+1. **Data Loading** – Imported the dataset using Python.
+2. **Data Cleaning** – Handled missing values and corrected data types.
+3. **Exploratory Data Analysis (EDA)** – Analyzed patterns and relationships in the data.
+4. **SQL Analysis** – Performed queries to extract key business insights.
+5. **Visualization** – Built an interactive dashboard in Power BI.
+6. **Reporting** – Documented findings and created a presentation using Gamma.
 
 ## Dashboard
-The Power BI dashboard provides interactive visualizations that highlight:
-- Customer demographics distribution  
-- Sales by product category  
-- Customer spending behavior  
-- Key purchasing trends
-
----
+The Power BI dashboard visualizes:
+- Customer demographics
+- Product category performance
+- Spending patterns
+- Customer purchase trends
 
 ## Results
-- Identified major product categories contributing to sales.  
-- Analyzed customer demographics and their purchasing patterns.  
-- Highlighted trends that help understand customer spending behavior.
-
----
+The analysis helps identify high-spending customers, popular product categories, and overall shopping trends, enabling better data-driven decision making.
 
 ## How to Run
-1. Clone the repository:
+1. Clone the repository.
+2. Load the dataset in Python.
+3. Run the data cleaning and EDA scripts.
+4. Execute SQL queries in PostgreSQL / MySQL / SQL Server.
+5. Open the Power BI dashboard file to explore the visual insights.
+4. Run the data cleaning and EDA scripts.
+5. Execute SQL queries in PostgreSQL / MySQL / SQL Server.
+6. Open the Power BI dashboard file to explore the visual insights.
